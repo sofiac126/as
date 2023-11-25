@@ -1,0 +1,62 @@
+/* Apply styles to the nav-bar class */
+.nav-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Apply styles to the content class */
+  .content {
+    margin: 20px;
+  }
+  
+  /* Apply styles to the footer class */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Descendant selector: Apply styles to 'a' elements within the nav-bar class */
+  .nav-bar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Child selector: Apply styles to 'li' elements that are direct children of the ul within the nav-bar class */
+  .nav-bar > ul > li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  /* Adjacent sibling selector: Apply styles to the content class that directly follows the nav-bar class */
+  .nav-bar + .content {
+    border-top: 1px solid #333;
+  }
+  
+  /* Descendant selector: Apply styles to 'p' elements within the content class */
+  .content p {
+    font-size: 16px;
+  }
+  
+  /* Descendant selector: Apply styles to 'p' elements within the footer class */
+  .footer p {
+    margin: 0;
+  }
+  
+  /* Additional styles for better visibility */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  /* Style the links within the footer */
+  .footer a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
